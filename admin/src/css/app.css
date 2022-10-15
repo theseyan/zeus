@@ -1,0 +1,13 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, Inter, system-ui, "Segoe UI", sans-serif;
+}
+.padded {
+    padding: 10px 50px;
+}
+.main > .title {
+    font-size: 28px;
+    margin-top: 25px;
+}
