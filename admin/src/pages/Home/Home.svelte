@@ -8,8 +8,8 @@
     <UserBox />
     <h1 class="title">Dashboard</h1>
 
-    Welcome to the Dashboard.<br />
-    There will soon be something here.
+    <b>Welcome to Zeus.</b><br /><br />
+    Get started by <a class="link" href="#/posts/create">creating a new post</a> or <a class="link" href="#/themes">choosing a site theme</a>.
 </main>
 
 <style>

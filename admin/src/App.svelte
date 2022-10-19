@@ -7,7 +7,8 @@
 
     const routes = {
         '/': Home,
-        '/posts': Posts
+        '/posts': Posts,
+        '/posts/*': Posts
     };
 
 </script>
@@ -25,5 +26,7 @@
     }
     .page {
         width: 100%;
+        height: 100vh;
+        overflow: auto;
     }
 </style>

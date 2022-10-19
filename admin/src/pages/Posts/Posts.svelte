@@ -1,12 +1,21 @@
 <script>
+
+    import Router from 'svelte-spa-router';
     import UserBox from '../../components/UserBox/UserBox.svelte';
+    import ListPosts from './ListPosts/ListPosts.svelte';
+    import CreatePost from './CreatePost/CreatePost.svelte';
+
+    const prefix = '/posts';
+    const routes = {
+        '/': ListPosts,
+        '/create': CreatePost
+    };
+
 </script>
 
 <main class="main padded">
     <UserBox />
-    <h1 class="title">Posts</h1>
-
-    
+    <Router {routes} {prefix} />
 </main>
 
 <style>

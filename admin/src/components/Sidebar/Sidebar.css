@@ -19,6 +19,9 @@
     font-size: 17px;
     font-weight: 600;
     margin-left: 10px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .items {
     padding: 15px 15px;
